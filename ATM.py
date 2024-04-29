@@ -1,7 +1,7 @@
 # ATM
 user_info={'pin_num':1234,'Fund_available':50000}
 
-
+#function
 def withdraw():
     amount=int(input("Enter The amount to withdraw: "))
     if amount>user_info['Fund_available']:
